@@ -1,8 +1,17 @@
 <?php
-$servername = "localhost";
-$username = "sureshroshi";
-$password = "test1234";
-$dbname = "mytectutor";
+                /*Development Connection*/
+
+// $servername = "localhost";
+// $username = "sureshroshi";
+// $password = "test1234";
+// $dbname = "mytectutor";
+
+                /*Remote Database Connection*/
+
+$servername = "remotemysql.com";
+$username = "6ivyxgmgkL";
+$password = "GwIXCAJPLE";
+$dbname = "6ivyxgmgkL";
 
 /*$conn = mysqli_connect($dbServername, $dbUsername, $dbPassword, $dbName);*/
 
