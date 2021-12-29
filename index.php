@@ -12,11 +12,20 @@
 
     <h1>SENSOR DATA</h1>
 <?php
+                /*Development Connection*/
 
-$servername = "localhost";
-$username = "sureshroshi";
-$password = "test1234";
-$dbname = "mytectutor";
+// $servername = "localhost";
+// $username = "sureshroshi";
+// $password = "test1234";
+// $dbname = "mytectutor";
+
+                /*Remote Database Connection*/
+
+$servername = "remotemysql.com";
+$username = "6ivyxgmgkL";
+$password = "GwIXCAJPLE";
+$dbname = "6ivyxgmgkL";
+
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
